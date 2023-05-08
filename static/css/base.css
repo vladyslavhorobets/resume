@@ -1,0 +1,40 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+aside, header, nav, main, section, article, footer, aside {
+    display: block;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul li, ol li {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+blockquote, q {
+    quotes: "" "";
+}
